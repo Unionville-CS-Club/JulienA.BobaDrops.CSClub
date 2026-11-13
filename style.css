@@ -1,0 +1,55 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Papyrus;
+}
+
+p {
+  font-size: 20px;
+  background-image: linear-gradient(black, rgb(209, 56, 56));
+  color: transparent;
+  background-clip: text;
+}
+
+
+a:link {
+  background-image: linear-gradient(lightgreen, aqua);
+  color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+a:visited {
+  background-image: linear-gradient(darkgreen, green);
+  color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+  font-family:'Comic Sans MS';
+  min-height: 100vh;
+  background-color: blue;
+  background-image: linear-gradient(to right, #FF9A8A 0%, #AAFF00 25%, #B9FF66 75%, #00FFFF 100%);
+  margin: 0;
+  background-attachment: fixed;
+}
+
+footer {
+  background-color: #081607;
+  margin: .5%;
+  background-attachment: fixed;
+  outline: 5 solid 4F4F4F;
+  padding: 12px;
+}
+
+img {
+  outline: 10px solid pink;
+  width: 100px;
+  height:500px;
+}
+
+html {
+  height: 100%;
+}
